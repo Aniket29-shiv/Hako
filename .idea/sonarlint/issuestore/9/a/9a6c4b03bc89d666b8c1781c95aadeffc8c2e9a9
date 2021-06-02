@@ -1,0 +1,7 @@
+
+O
+java:S4719""9Replace charset name argument with StandardCharsets.UTF_8(…¹Ù
+\
+java:S1192""FDefine a constant instead of duplicating this literal "UTF-8" 3 times.(…¹Ù
+‘
+java:S1319"vThe type of the "postDataParams" object should be an interface such as "Map" rather than the implementation "HashMap".(Ôˆáıÿÿÿÿ

@@ -1,0 +1,9 @@
+
+k	java:S1174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡Ð†Ðýÿÿÿÿ
+~
+java:S1488;"cImmediately return this expression instead of assigning it to the temporary variable "plainString".(ÅŽ¼Ëùÿÿÿÿ
+T
+java:S1172"9Remove this unused method parameter "mInterceptorheader".(Ä¤žðþÿÿÿÿ
+Q	java:S125%"<This block of commented-out lines of code should be removed.(Å÷þ
+{
+java:S1488,"`Immediately return this expression instead of assigning it to the temporary variable "retrofit".(ûÉõíüÿÿÿÿ

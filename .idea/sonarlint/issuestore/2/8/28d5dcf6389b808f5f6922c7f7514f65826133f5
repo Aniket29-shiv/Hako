@@ -1,0 +1,7 @@
+
+F
+java:S1172¼"/Remove this unused method parameter "activity".(½ð·ô
+W	java:S125ä"<This block of commented-out lines of code should be removed.(½õê‚úÿÿÿÿ
+m	java:S116A"SRename this field "Activity" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠùÇ¤ýÿÿÿÿ
+R
+java:S2696©"6Make the enclosing method "static" or remove this set.(û€Ì›ùÿÿÿÿ

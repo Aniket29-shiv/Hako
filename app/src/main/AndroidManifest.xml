@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hako.dreamproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.hako.dreamproject.utils.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DreamProject"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.hako.dreamproject.chatActivity" android:theme="@style/Theme.DreamProject.NoActionBar"/>
+        <activity
+            android:name="com.hako.dreamproject.SplashActivity"
+            android:screenOrientation="sensorPortrait"
+            android:showOnLockScreen="true"
+            android:theme="@style/Theme.DreamProject.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.hako.dreamproject.notification.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.hako.dreamproject.PlayerSearching"
+            android:theme="@style/Theme.DreamProject.NoActionBar" />
+        <activity
+            android:name="com.hako.dreamproject.HomeActivity"
+            android:hardwareAccelerated="true"
+            android:theme="@style/Theme.DreamProject.NoActionBar" />
+        <activity
+            android:name="com.hako.dreamproject.LoginActivity"
+            android:theme="@style/Theme.DreamProject.NoActionBar" />
+        <activity
+            android:name="com.hako.dreamproject.MainActivity"
+            android:theme="@style/Theme.DreamProject.NoActionBar" />
+        <activity
+            android:name="com.hako.dreamproject.ResultActivity"
+            android:theme="@style/Theme.DreamProject.NoActionBar" />
+        <activity
+            android:name="com.hako.dreamproject.ActivityTracker"
+            android:theme="@style/Theme.DreamProject.NoActionBar" />
+        <activity
+            android:name="com.hako.dreamproject.BrowserActivity"
+            android:theme="@style/Theme.DreamProject.NoActionBar" />
+        <activity
+            android:name="com.hako.dreamproject.CoinMarket"
+            android:theme="@style/Theme.DreamProject.NoActionBar" />
+        <activity
+            android:name="com.hako.dreamproject.payment.BuyNowActivity"
+            android:theme="@style/Theme.DreamProject.NoActionBar" />
+        <activity
+            android:name="com.hako.dreamproject.MyOrderActivity"
+            android:theme="@style/Theme.DreamProject.NoActionBar" />
+        <activity
+            android:name="com.hako.dreamproject.payment.CreateOrderActivity"
+            android:theme="@style/Theme.DreamProject.NoActionBar" />
+        <activity
+            android:name="com.hako.dreamproject.Maintance"
+            android:theme="@style/Theme.DreamProject.NoActionBar" />
+    </application>
+
+</manifest>

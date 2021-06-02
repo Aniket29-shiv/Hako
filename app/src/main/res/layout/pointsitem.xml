@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView app:cardCornerRadius="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/extra_placeholder"/>
+        <TextView
+            android:id="@+id/points"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="150 Points"
+            android:fontFamily="@font/calibrib"/>
+        <TextView
+            android:id="@+id/amount"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="100"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/green"
+            android:background="@drawable/buynow"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

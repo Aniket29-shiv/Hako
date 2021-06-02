@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:scaleType="centerCrop"
+                    android:id="@+id/background"
+                    android:layout_marginBottom="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/other_placeholder"/>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_marginTop="@dimen/dimen_50dp"
+                    android:layout_gravity="center|bottom"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/icon"
+                    android:src="@mipmap/ic_launcher_round"/>
+            </FrameLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:gravity="bottom|center"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/title"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/calibrib"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FREE FIRE DIAMOND"/>
+                <TextView
+                    android:id="@+id/description"
+                    android:layout_marginTop="@dimen/dimen_10dp"
+                    android:fontFamily="@font/calibri"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="450 Diamond"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/buynow"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center"
+                android:paddingTop="@dimen/dimen_10dp"
+                android:paddingBottom="@dimen/dimen_10dp"
+                android:textColor="@color/white"
+                android:paddingEnd="30sp"
+                android:paddingStart="30sp"
+                android:backgroundTint="@color/green"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BUY NOW"
+                android:background="@drawable/buynow"/>
+
+        </LinearLayout>
+
+        <WebView
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/webview"
+            tools:ignore="WebViewLayout" />
+
+
+</LinearLayout>

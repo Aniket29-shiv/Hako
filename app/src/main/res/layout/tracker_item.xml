@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/tracker_rount"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    android:layout_marginTop="5dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5">
+        <ImageView
+            android:layout_marginTop="2dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/coin"/>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginStart="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TextView
+                android:id="@+id/name"
+                android:singleLine="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Daily Check-in"
+                android:textSize="16sp"
+                android:fontFamily="@font/calibri"/>
+            <TextView
+                android:id="@+id/date"
+                android:textColor="@color/gray_100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2020-10-12"
+                android:textSize="12sp"
+                android:fontFamily="@font/calibri"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="0.5"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+150"
+            android:fontFamily="@font/calibrib"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+</LinearLayout>

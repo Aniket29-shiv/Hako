@@ -1,0 +1,80 @@
+plugins {
+    id 'com.onesignal.androidsdk.onesignal-gradle-plugin'
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        applicationId "com.hako.india"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 5
+        versionName "1.3"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        manifestPlaceholders = [
+                onesignal_app_id: 'bef035e0-3856-4009-b455-8007dc1ddcd8',
+                // Project number pulled from dashboard, local value is ignored.
+                onesignal_google_project_number: 'REMOTE'
+        ]
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    // firebase
+    implementation platform('com.google.firebase:firebase-bom:27.1.0')
+    implementation 'com.google.firebase:firebase-database:19.6.0'
+    implementation 'com.google.firebase:firebase-auth:20.0.1'
+    implementation 'com.google.firebase:firebase-firestore' // firestore
+//    implementation 'com.google.android.gms:play-services-auth:19.0.0'
+
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+    implementation 'com.google.android.gms:play-services-auth:19.0.0'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.facebook.android:facebook-android-sdk:[4,5)'
+    implementation 'com.hardik.clickshrinkeffect:shrinkeffect:1.0.1'
+    implementation 'jp.wasabeef:recyclerview-animators:4.0.1'
+    implementation 'com.paytm.appinvokesdk:appinvokesdk:1.5.3'
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    // Retrofit API Interceptor for Debuging
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.4.1'
+    implementation 'com.squareup.okhttp3:okhttp:3.4.1'
+    implementation 'com.onesignal:OneSignal:[3.13.0, 3.99.99]'
+
+    // BlurKit
+    implementation 'io.alterac.blurkit:blurkit:1.1.0'
+
+    // Emoji
+    implementation 'com.vanniktech:emoji-google:0.7.0'
+
+    // Materiala.io
+    implementation 'com.google.android.material:material:1.3.0'
+
+}

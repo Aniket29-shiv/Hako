@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_200">#00BCD4</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="coffee">#54263B</color>
+    <color name="gray_fad">#606062</color>
+    <color name="gray">#E6E6E6</color>
+    <color name="gray_trans">#54B8B8B8</color>
+    <color name="tint">#BCB5DA</color>
+    <color name="gray_100">#8F8F8F</color>
+    <color name="green">#4CAF50</color>
+    <color name="primary">#20264A</color>
+    <color name="colorError">#F44336</color>
+    <color name="yellow">#FFC107</color>
+    <color name="green_fad">#8BC34A</color>
+
+
+<!--    ui  -->
+    <color name="yellowPrimary">#FDB03E</color>
+
+    <!--    Text Colors   -->
+    <color name="primaryText">#272727</color>
+    <color name="primaryTextLight">#494949</color>
+    <color name="secondaryText">#8F8F8F</color>
+    <color name="secondaryTextLight">#BBBBBB</color>
+    <color name="warningText">#f44336</color>
+    <color name="successText">#00FF00</color>
+
+<!--    Theme Color     -->
+    <color name="primaryThemeColor">#FBD660</color>
+
+</resources>

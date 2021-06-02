@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "319690452837",
+    "project_id": "hako-53b70",
+    "storage_bucket": "hako-53b70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319690452837:android:7947eeef8bf52eafd23b8c",
+        "android_client_info": {
+          "package_name": "com.hako.india"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319690452837-gpo6f1k0l6hbtdom2du8smihmj62lmeb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hako.india",
+            "certificate_hash": "f021f681ad1193453847b701bb725f8dd972a2a6"
+          }
+        },
+        {
+          "client_id": "319690452837-nqa1ojtvf96pv4jddb9717dgvmn08r4k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeUKpHhaZ0-QdjGMdlOsd0J6Qwxfjoh_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319690452837-nqa1ojtvf96pv4jddb9717dgvmn08r4k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

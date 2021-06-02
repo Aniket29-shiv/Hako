@@ -1,0 +1,14 @@
+
+s
+java:S11281"VRemove this unused import 'jp.wasabeef.recyclerview.adapters.ScaleInAnimationAdapter'.(â¼¥à8ÙÄ¤×î.
+O
+java:S1128"-Remove this unused import 'android.util.Log'.(Ô¦Ø²øÿÿÿÿ8®Ï›×î.
+d
+java:S1192z"GDefine a constant instead of duplicating this literal "amount" 4 times.(Îß¤Ô8ìø¢Ýî.
+Y	java:S125•"<This block of commented-out lines of code should be removed.(äÊ°Å8ìø¢Ýî.
+e
+java:S1128"HRemove this unused import 'com.game.dreamproject.fragment.HomeFragment'.(ïìÁ„8¤å¢×î.
+_
+java:S1128"BRemove this unused import 'com.game.dreamproject.model.GameModel'.(¯Ã­«8ÑÎœ×î.
+g
+java:S11288"JRemove this unused import 'com.game.dreamproject.utils.Constant.GAMELIST'.(Ÿ¾â…8šœ›×î.

@@ -1,0 +1,9 @@
+
+`
+java:S1155m">Use isEmpty() to check whether the collection is empty or not.(½öïïùÿÿÿÿ8äÆ¶èî.
+u
+java:S3776ÿ"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Ù²­×úÿÿÿÿ8”ô§˜î.
+y
+java:S3923à"[Remove this conditional structure or edit its code blocks so that they're not all the same.(ÆÆ—†8”ô§˜î.
+l
+java:S1192Ï"IDefine a constant instead of duplicating this literal " playing" 3 times.(Ô¸§Ìýÿÿÿÿ8”ô§˜î.
